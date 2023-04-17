@@ -20,7 +20,7 @@ export const Layout: React.FC<Props> = ({ children, title })=> {
                 <meta name="keywords" content={title}/>
                 <meta property="og:title" content={`Información sobre ${title}`} />
                 <meta property="og:description" content={`Esta es la página sobre ${title}`} />
-                <meta property="og:image" content={`${origin}img/pokemon-banner.jpg`} />
+                <meta property="og:image" content={`${origin}/img/pokemon-banner.jpg`} />
             </Head>
             <main>
                 <Navbar />
