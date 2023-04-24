@@ -1,3 +1,33 @@
+# Proyecto de Pokemón
+
+En este proyecto, he utilizado la API de Pokemón para crear páginas para cada uno de los 151+ Pokemones existentes. Para hacer esto, hemos utilizado las funciones de Next.js `GetStaticPaths` y `GetStaticProps`.
+
+## Funcionamiento del proyecto
+
+1. Primero, hemos utilizado la API de Pokemón para obtener información sobre cada Pokemón existente.
+2. Luego, hemos utilizado `GetStaticPaths` para generar páginas dinámicamente para cada Pokemón.
+3. Finalmente, hemos utilizado `GetStaticProps` para obtener la información relevante para cada página y pasarla a nuestro componente de Pokemón.
+4. Se configura para que se renderizen inicialmente 151 páginas, luego si desea acceder a pokemons recientes puede cambiar la url por...152..589...322, dependiendo de la Api pokemon a que haga referencia ese ID o por el nombre del pokemon.
+
+De esta manera, hemos sido capaces de crear una página para cada uno de los 151+ Pokemones existentes, lo que permite a los usuarios buscar información detallada sobre cada uno de ellos.
+
+## Tecnologías utilizadas
+
+- Next.js
+- Next UI
+- Axios
+- API de Pokemón
+
+## Conclusiones
+
+El uso de `GetStaticPaths` y `GetStaticProps` en Next.js ha hecho posible la creación de una gran cantidad de páginas de manera eficiente y escalable. Además, trabajar con la API de Pokemón ha sido una forma interesante y divertida de aprender más sobre el desarrollo web y el manejo de APIs.
+
+¡Gracias por leer acerca de este proyecto de Pokemón! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
